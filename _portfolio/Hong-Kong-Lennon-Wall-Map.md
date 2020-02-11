@@ -1,11 +1,6 @@
 ---
 title:  "Hong Kong Lennon Wall Map"
-date: 2019-07-25T04:04:00+08:00
-categories:
-  - Project
-tags:
-  - Data Management
-  - Web App
+last_modified_at: 2019-07-25T04:04:00+08:00
 ---
 Visualization of the Hong Kong Lennon Wall Instagram Posts in a Map
 

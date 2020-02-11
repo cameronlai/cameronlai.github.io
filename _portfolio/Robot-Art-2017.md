@@ -1,9 +1,6 @@
 ---
 title:  "Robot Art 2017"
 last_modified_at: 2017-04-13T16:50:00+08:00
-tags:
-  - Art
-  - Electronics
 ---
 Painting with a Robotic Arm for the RobotArt 2017 Competition The project kicked off in January, 2017 with my friend, Simon. We both had an interest in robotics and decided to take part in the [RobotArt 2017 competition](https://robotart.org/) (Team Starfish Lab). The main aim was to take this chance to create artwork with robotics and share it with others.
 

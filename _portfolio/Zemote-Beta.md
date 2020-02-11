@@ -1,9 +1,7 @@
 ---
 title:  "Zemote Beta"
 last_modified_at: 2015-03-15T16:15:00+08:00
-tags:
-  - Arduino
-  - Electronics
+
 ---
 Program Zemote with your own remote control You can configure Zemote into any kind of remote control. The best thing about Zemote is that you can program a button to do multiple things. For example, you can configure the power button to power the television, air conditioner and sound system in one go. 
 

@@ -1,11 +1,6 @@
 ---
 title:  "font3d"
 last_modified_at: 2015-03-04T17:18:00+08:00
-categories:
-  - Project
-tags:
-  - 3D Printing
-  - Web App
 ---
 Create 3D Text with a simple web app
 

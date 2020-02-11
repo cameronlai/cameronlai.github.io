@@ -1,8 +1,6 @@
 ---
 title:  "Phonehaviour"
 last_modified_at: 2015-05-19T16:39:00+08:00
-tags:
-  - Android
 ---
 Display usage statics under Android (Lollipop) 
 

@@ -1,10 +1,6 @@
 ---
 title:  "Athletics Results Visualization"
 last_modified_at: 2018-05-21T16:05:00+08:00
-categories:
-  - Project
-tags:
-  - Web App
 ---
 Visualizing athletics results data in graphs and tables
 

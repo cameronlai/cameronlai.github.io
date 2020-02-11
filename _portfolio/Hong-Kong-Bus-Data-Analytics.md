@@ -1,10 +1,6 @@
 ---
 title:  "Hong Kong Bus Data Analytics"
 last_modified_at: 2018-08-05T17:35:00+08:00
-categories:
-  - Project
-tags:
-  - Data Management
 ---
 An exploration project of bus data from Data.Gov.HK and GTFS
 
