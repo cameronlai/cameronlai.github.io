@@ -16,11 +16,12 @@
 title: Cameron Lai
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Engineer | Windsurfer
+  Software Engineer
 twitter_username: cameron_lai
 github_username: cameronlai
 minimal_mistakes_skin: default
 search: true
+logo: "/assets/images/logo.jpg"
 
 # Build settings
 markdown: kramdown
@@ -94,6 +95,9 @@ defaults:
       comments: true
       share: true
       related: true
+      read_time: false
+      header:
+        overlay_filter: 0.5
   # _pages
   - scope:
       path: "_pages"
@@ -113,5 +117,3 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "cameronlai"
-
-teaser: /assets/images/logo.jpg

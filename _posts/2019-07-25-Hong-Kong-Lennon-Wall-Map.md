@@ -2,7 +2,7 @@
 title:  "Hong Kong Lennon Wall Map"
 date: 2019-07-25T04:04:00+08:00
 header:
-  overlay_image: /assets/images/font3d.jpg
+  overlay_image: /assets/images/hk-lenon-wall.jpg
   teaser: /assets/images/hk-lenon-wall.jpg
 categories:
   - Project
@@ -19,6 +19,8 @@ Visualization of the Hong Kong Lennon Wall Instagram Posts in a Map
 June 2019 marks an important point of history for Hong Kong. Multiple large scale protests took place against the extradition bill, including the ones which 1 million and 2 million people went on the streets on [9th June, 2019](https://www.bbc.com/news/world-asia-china-48572130) and [16th June, 2019](https://www.bbc.com/news/world-asia-china-48656471).
 
 In response to all the protest and violence, many thousands of people posted colourful post-it notes in Hong Kong to express democratic wishes and political views. This took place in 2014 during the ["Umbrella Protest"](https://en.wikipedia.org/wiki/2014_Hong_Kong_protests) at Admiralty. For the 2019 protests, the "Lennon Wall" went viral and is now in multiple locations (>100) in Hong Kong. This term ["Lennon Wall"](https://en.wikipedia.org/wiki/Lennon_Wall) originated from Prague, Czech republic, where a normal has been filled with John Lennon-inspired graffiti since 1980 shortly after John Lennon was murdered. It symbolizes freedom of speech, which everyone can express the views on the wall, no matter which political stance they take.
+
+{% include figure image_path="/assets/images/hk-lenon-wall.jpg" alt="HK Lennon Wall Map" caption="HK Lennon Wall Map" %}
 
 This project aims to show the distribution of the "Lennon Wall" activity across Hong Kong during the important times. It started by crawling the hashtag [#連儂牆](https://www.instagram.com/explore/tags/%E9%80%A3%E5%84%82%E7%89%86/). The metadata from Instagram was used to build a JSON file for the website. A total of 729 posts were collected, clustered into 80 markers on the map with k-means algorithm under the UTM coordinate system. The website is built with Vue.js, utilizing the the Vue2Leaflet library. 
 

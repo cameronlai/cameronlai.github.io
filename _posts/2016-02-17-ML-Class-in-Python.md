@@ -2,6 +2,7 @@
 title:  "ML Class In Python"
 last_modified_at: 2016-02-17T15:31:00+08:00
 header:
+  overlay_image: /assets/images/ml-class-in-python-ex2-classification.jpg
   teaser: /assets/images/ml-class-in-python-ex2-classification.jpg
 categories:
   - Project
@@ -19,5 +20,6 @@ I have recently taken [Andrew Ng's machine learning course on Coursera](https://
 
 Hope you can learn something from the code examples! 
 
-![alt text](http://cameronlai.com/wp-content/uploads/2016/02/ml-class-in-python-ex7-bird-image-compression.jpeg)
-*ML Class in Python ex7 bird image compression*
+{% include figure image_path="/assets/images/ml-class-in-python-ex2-classification.jpg" alt="ML Class in Python ex2 classification" caption="ML Class in Python ex2 classification" %}
+
+{% include figure image_path="/assets/images/ml-class-in-python-ex7-bird-image-compression.jpg" alt="ML Class in Python ex7 bird image compression" caption="ML Class in Python ex7 bird image compression" %}

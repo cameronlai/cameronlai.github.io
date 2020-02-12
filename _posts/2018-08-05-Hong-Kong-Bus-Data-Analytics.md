@@ -2,6 +2,7 @@
 title:  "Hong Kong Bus Data Analytics"
 last_modified_at: 2018-08-05T17:35:00+08:00
 header:
+  overlay_image: /assets/images/bus_data_analytics_gtfs_viewer_screenshot.jpg
   teaser: /assets/images/bus_data_analytics_gtfs_viewer_screenshot.jpg
 categories:
   - Project
@@ -11,7 +12,6 @@ tags:
 An exploration project of bus data from Data.Gov.HK and GTFS
 
 ## Introduction
-------------
 
 Recently, I found out that Google Map does not show the best route observation and therefore, I did some digging and wrote up this project page on some of findings and work. Indeed, the Hong Kong government has grouped all transport data into their own API or database files on [Data.Gov.HK](https://data.gov.hk/en-data/dataset/hk-td-tis_3-routes-and-fares-of-public-transport). This project was in separated into 2 parts mainly.
 
@@ -19,12 +19,10 @@ Recently, I found out that Google Map does not show the best route observation a
 2.  Plotting of interesting statistics from the bus data
 
 ## Part 1 - Data Mapping
-----------------------
 
 The bus data from from the Data.Gov.HK was mapped to the Google Map's GTFS format.The script used can be found from [the link](https://gist.github.com/cameronlai/3a2475e422fb1c26b74a91162a1daf54). After mapping the data to a certain, the GTFS viewer can be used to view the results and a screenshot is shown below. 
 
-![alt text](http://cameronlai.com/wp-content/uploads/2018/08/bus_data_analytics_gtfs_viewer_screenshot-1024x570.jpg)
-*Bus Data Analytics with GTFS Schedule Viewer*
+{% include figure image_path="/assets/images/bus_data_analytics_gtfs_viewer_screenshot.jpg" alt="Bus Data Analytics with GTFS Schedule Viewer" caption="Bus Data Analytics with GTFS Schedule Viewer" %}
 
 From the data conversion exercise, the following points were learnt.
 
@@ -44,7 +42,6 @@ From the data conversion exercise, the following points were learnt.
 In the long term, I believe it will be highly beneficial for Hong Kong to maintain its own GTFS data format as a public data set. This will allow different applications like Google Map to have the best route information in order to advice the best travel route for customers. In addition, the experience from Google Map has established a great file format, which would include much more information that what the data.gov.HK has published at the moment.
 
 ## Part 2 - Interesting Statistics
---------------------------------
 
 With the bus data in hand, I also plotted out some interesting statistics.
 
@@ -56,18 +53,15 @@ From the graph below, it shows that the median of each company is about 30 stati
 
 The distance between bus stops is calculated using the [inverse function](https://jswhit.github.io/pyproj/pyproj.Geod-class.html) in the [pyproj library](https://pypi.org/project/pyproj/). This already includes the correction from longitude and latitude to distance on ground. Interestingly. The median distance between bus stop for each company is about 400m. Using 10 minute per km walking speed, this would take about 4-5 minutes for a normal person to walk from one bus stop to another. 
 
-![alt text](http://cameronlai.com/wp-content/uploads/2018/08/bus_data_analytics_distance_between_bus_stops.png)]
-*Box plot of distance between bus stops*
+{% include figure image_path="/assets/images/bus_data_analytics_distance_between_bus_stops.png" alt="Box plot of distance between bus stops" caption="Box plot of distance between bus stops" %}
 
 ### Box plot of price between bus stops
 
 The fare per bus stop is calculated by the full fare divided by the number of bus stops in the trip. The discounted price is the middle is not included in the calculation. The median value is about $0.5 HKD per bus stop. This shows that each company has a very similar pricing strategy, when compared to their competitors. The most expensive fare per bus stop is [NA21](https://moovitapp.com/index/en/public_transit-line-NA21-Hong_Kong-2741-926722-514588-0), which gives about $5.35 HKD per bus stop. 
 
-![alt text](http://cameronlai.com/wp-content/uploads/2018/08/bus_data_analytics_fare_per_bus_stop.png)
-*Box plot of fare per bus stop*
+{% include figure image_path="/assets/images/bus_data_analytics_fare_per_bus_stop.png" alt="Box plot of fare per bus stop" caption="Box plot of fare per bus stop" %}
 
-Conclusion
-----------
+## Conclusion
 
 It is great that the HK government has taken the first step to open up the bus data with the data.gov.HK website and APIs. I believe the openness of data will help application developers to make better applications for building future "Smart Cities". I believe that the following points still need to be tackled.
 

@@ -2,6 +2,7 @@
 title:  "Athletics Results Visualization"
 last_modified_at: 2018-05-21T16:05:00+08:00
 header:
+  overlay_image: /assets/images/ath_res_vis_cover.jpg
   teaser: /assets/images/ath_res_vis_cover.jpg
 categories:
   - Project
@@ -21,6 +22,8 @@ As an athlete when I was younger, I had taken part in various competition, yet t
 
 ## Work
 ----
+
+{% include figure image_path="/assets/images/ath_res_vis_cover.jpg" alt="Example web interface" caption="Example web interface" %}
 
 This project involved practicing techniques from Java Script, Python, organizing database files and regular expression. It was a nice fun to work across multiple languages and get it everything set up and work accordingly. Here are a list of the difficulties I encountered and what I did with them.
 

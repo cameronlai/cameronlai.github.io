@@ -2,6 +2,7 @@
 title:  "Zemote Beta"
 last_modified_at: 2015-03-15T16:15:00+08:00
 header:
+  overlay_image: /assets/images/zemote-shield-top-view.jpg
   teaser: /assets/images/zemote-shield-top-view.jpg
 categories:
   - Projects
@@ -11,14 +12,11 @@ tags:
 ---
 Program Zemote with your own remote control You can configure Zemote into any kind of remote control. The best thing about Zemote is that you can program a button to do multiple things. For example, you can configure the power button to power the television, air conditioner and sound system in one go. 
 
-![alt text](http://cameronlai.com/wp-content/uploads/2015/07/zemote-beta-prototype-300x215.jpg)
-*Zemote beta prototype*
+{% include figure image_path="/assets/images/zemote-beta-prototype.jpg"  alt="Zemote beta prototype" caption="Zemote beta prototype" %}
 
-![alt text](http://cameronlai.com/wp-content/uploads/2015/07/zemote-beta-prototype.jpg) 
-*Zemote beta prototype*
+{% include figure image_path="/assets/images/inside-zemote-beta-prototype.jpg"  alt="Inside Zemote beta prototype" caption="Inside Zemote beta prototype" %}
 
-![alt text](http://cameronlai.com/wp-content/uploads/2015/07/inside-zemote-beta-prototype-300x248.jpg)
-*Inside Zemote beta prototype*
+{% include figure image_path="/assets/images/zemote-shield-top-view.jpg"  alt="Zemote sheild electronics board" caption="Zemote sheild electronics board" %}
 
 ### Basics
 
@@ -54,8 +52,7 @@ There are a few constraints in the Zemote set up and they are shown below.
 
 Zemote Host allows you to connect to your Zemote device seamlessly. It helps you visualize the whole IR programming progress by showing you the IR codes through the terminal on the right hand side. The software is written in Python, using wxPython as the user interface engine. The latest version is 2015.XX.XX and if you have any feedback, please let me know or add an issue on [github](https://github.com/cameronlai/ZemoteHost).
 
-![alt text](http://cameronlai.com/wp-content/uploads/2015/03/zemote-host-screenshot.jpg)
- *Zemote Host Screenshot*
+{% include figure image_path="/assets/images/zemote-host-screenshot.jpg"  alt="Zemote Host Screenshot" caption="Zemote Host Screenshot" %}
 
 ### Zemote Firmware
 
@@ -74,8 +71,7 @@ Zemote Firmware Source Code\[/standout-css3-button\] Zemote Firmware is a piece 
 
 Zemote Shield is built as a shield for Arduino Uno or Arduino Nano. Nano has a smaller footprint and should be preferred. The latest version is Rev. A and if you have any feedback, please let me know or add an issue on [github](https://github.com/cameronlai/ZemoteShield). 
 
-![alt text](http://cameronlai.com/wp-content/uploads/2015/07/zemoteshield-rev-a-schematics.png) 
-*Zemote Shield Rev A Schematics*
+{% include figure image_path="/assets/images/zemoteshield-rev-a-schematics.png"  alt="Zemote Shield Rev A Schematics" caption="Zemote Shield Rev A Schematics" %}
 
 ### Summary
 
