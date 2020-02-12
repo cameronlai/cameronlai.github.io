@@ -122,4 +122,4 @@ analytics:
   provider: "google-gtag"
   google:
     tracking_id: "UA-158301953-1"
-    anonymize_ip: true # default
+    anonymize_ip: false # default
