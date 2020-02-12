@@ -1,6 +1,10 @@
 ---
 title:  "ML Class In Python"
 last_modified_at: 2016-02-17T15:31:00+08:00
+categories:
+  - Project
+tags:
+  - Machine Learning 
 ---
 Machine Learning Course Exercise in Python 
 

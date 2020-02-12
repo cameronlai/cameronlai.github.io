@@ -1,6 +1,10 @@
 ---
 title:  "Exam Timetable Generator"
 last_modified_at: 2015-03-07T18:01:00+08:00
+categories:
+  - Project
+tags:
+  - Web App
 ---
 Optimize exam timetable by maximizing revision time between subjects
 
