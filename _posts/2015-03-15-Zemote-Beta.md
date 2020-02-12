@@ -1,6 +1,10 @@
 ---
 title:  "Zemote Beta"
 last_modified_at: 2015-03-15T16:15:00+08:00
+header:
+  teaser: /assets/images/zemote-shield-top-view.jpg
+categories:
+  - Projects
 tags:
   - Arduino
   - Electronics

@@ -113,3 +113,5 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "cameronlai"
+
+teaser: /assets/images/logo.jpg

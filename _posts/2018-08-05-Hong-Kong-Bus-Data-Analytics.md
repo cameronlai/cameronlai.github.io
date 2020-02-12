@@ -1,6 +1,8 @@
 ---
 title:  "Hong Kong Bus Data Analytics"
 last_modified_at: 2018-08-05T17:35:00+08:00
+header:
+  teaser: /assets/images/bus_data_analytics_gtfs_viewer_screenshot.jpg
 categories:
   - Project
 tags:

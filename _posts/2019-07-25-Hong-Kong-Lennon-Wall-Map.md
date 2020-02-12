@@ -1,6 +1,9 @@
 ---
 title:  "Hong Kong Lennon Wall Map"
 date: 2019-07-25T04:04:00+08:00
+header:
+  overlay_image: /assets/images/font3d.jpg
+  teaser: /assets/images/hk-lenon-wall.jpg
 categories:
   - Project
 tags:
