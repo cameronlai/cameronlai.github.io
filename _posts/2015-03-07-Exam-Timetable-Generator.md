@@ -13,7 +13,9 @@ Optimise exam timetable by maximising revision time between subjects
 
 [Web App](https://cameronlai.com/ext-gen-frontend/)
 
-[Front End Source Code](https://github.com/cameronlai/ext-gen-frontend) | [Back End Source Code](https://github.com/cameronlai/ext-gen-backend)
+[Front End Source Code](https://github.com/cameronlai/ext-gen-frontend)
+
+[Back End Source Code](https://github.com/cameronlai/ext-gen-backend)
 
 ## Project Motivation
 
