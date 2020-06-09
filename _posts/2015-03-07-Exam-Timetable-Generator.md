@@ -11,6 +11,8 @@ tags:
 ---
 Optimise exam timetable by maximising revision time between subjects
 
+## Project Motivation
+
 Did you remember the times when you had exams in a row? 
 
 Did you ever wonder how did the school arrange these awful exam timetables? 
