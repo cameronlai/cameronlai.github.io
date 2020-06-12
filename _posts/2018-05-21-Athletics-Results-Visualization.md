@@ -36,4 +36,12 @@ This project involved practicing techniques from Java Script, Python, organizing
     *   Originally, I wanted to support some complex relationship between the AJAX drop down buttons.
     *   It ended up too convoluted and the final solution was a decision tree from left to right.
 
+## Rework from Django app to Vue JS Static Website
+---
+
+The first implementation was done in 2018 and the website was converted from a Django app to a static website built with Vue JS as part of the "Zero Server Cost" initiative.
+
+One of the major difference is that all the data was stored in backend before and ajax queries was used to get back the display data. The new approach downloads the entire dataset, which is about ~3MB. The user interface is now much more responsive, however, this slows the initial load time.
+
 Hope you will enjoy the convenience of using this web app as well! :)
+
