@@ -1,6 +1,6 @@
 ---
 title:  "Athletics Results Visualization"
-last_modified_at: 2018-05-21T16:05:00+08:00
+last_modified_at: 2020-06-12T22:22:34+08:00
 header:
   overlay_image: /assets/images/ath_res_vis_cover.jpg
   teaser: /assets/images/ath_res_vis_cover.jpg
@@ -18,7 +18,7 @@ Visualizing athletics results data in graphs and tables
 ## Motivation
 ---
 
-As an athlete when I was younger, I had taken part in various competition, yet the most important one was always the one in Wan Chai Sports Ground for the HKSSF Division One Athletics Competition. After seeing some live and thrilling action going on this year, I found it so difficult to look up an athletes performance over the years. The data is still in this old text format in PDF files. It just makes it very difficult so how an athlete has performed over the past few years.
+As an athlete when I was younger, I had taken part in various competition, yet the most important one was always the one in Wan Chai Sports Ground for the HKSSF Division One Athletics Competition. After seeing some live and thrilling action going on this year, I found it so difficult to look up an athletes performance over the years. The data is still in this old text format in PDF files. It just makes it very difficult so how an athlete has performed over the past asd years.
 
 ## Work
 ---
