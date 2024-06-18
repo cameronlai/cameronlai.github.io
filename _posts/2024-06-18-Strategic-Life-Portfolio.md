@@ -1,6 +1,6 @@
 ---
 title:  "Strategic Life Portfolio"
-date: 2024-06-18T17:00:00+08:00
+date: 2024-06-18T18:29:23+08:00
 header:
   overlay_image: /assets/images/hk-lenon-wall.jpg
   teaser: /assets/images/hk-lenon-wall.jpg
