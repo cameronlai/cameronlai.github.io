@@ -2,7 +2,7 @@
 title:  "Strategic Life Portfolio"
 date: 2024-06-18T18:29:23+08:00
 header:
-  overlay_image: /assets/images/strategic-life-portfolio-graph.jpg
+  overlay_image: /assets/images/strategic-life-portfolio-graph-banner.jpg
   teaser: /assets/images/strategic-life-portfolio-graph.jpg
 categories:
   - Project
